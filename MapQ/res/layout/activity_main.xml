@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MapQ_MainActivity" 
+    android:background="@drawable/background_open_">
+	
+   
+	<!-- 同城问问Logo -->
+	<LinearLayout
+	    android:id="@+id/MapQ_Logo"
+        android:layout_width="match_parent"
+	    android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:gravity="top" 
+	    >
+	</LinearLayout>
+	
+	<!--初始菜单界面的选项按钮 -->
+	<LinearLayout
+        android:id="@+id/MapQ_Choise_Menue"
+        android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:gravity="center"
+        >
+		
+	    <!-- UI美化按钮之间的直线 -->
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:background="@color/line_break"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"/>
+	    
+	    <!-- 登录按钮 -->
+        <Button 
+        android:id="@+id/menue_login"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menue_login"
+        android:textSize="20sp"
+        android:textColor="@color/menue_login"
+        android:background="@android:color/transparent"
+        	/>
+    	
+        <!-- UI美化按钮之间的直线 -->
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:background="@color/line_break"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"/>
+        
+	    <!-- 直接体验按钮 -->
+	    <Button 
+	        android:id="@+id/menue_try"
+	        android:gravity="center_horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/menue_try"
+	        android:textSize="20sp"
+	        android:textColor="@color/menue_login"
+	        android:background="@android:color/transparent"
+	        />
+	    
+	    <!-- UI美化按钮之间的直线 -->
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:background="@color/line_break"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"/>
+	    
+	    <!-- 关于按钮 -->
+	    <Button 
+	        android:id="@+id/menue_about"
+	        android:gravity="center_horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/menue_about"
+	        android:textSize="20sp"
+	        android:textColor="@color/menue_login"
+	        android:background="@android:color/transparent"
+	        />
+	    
+	    <!-- UI美化按钮之间的直线 -->
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:background="@color/line_break"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"/>
+	    
+	    <!-- 退出按钮 -->
+	    <Button 
+	        android:id="@+id/menue_exit"
+	        android:gravity="center_horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/menue_exit"
+	        android:textSize="20sp"
+	        android:textColor="@color/menue_login"
+	        android:background="@android:color/transparent"
+	        />
+	    
+	    <!-- UI美化按钮之间的直线 -->
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:background="@color/line_break"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"/>
+	    
+    </LinearLayout>
+	
+</LinearLayout>

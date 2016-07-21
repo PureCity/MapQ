@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/askquestion"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/useraskquestion_title" />
+
+    <EditText
+        android:id="@+id/useraskquestion_titleedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/useraskquestion_titlehint"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/useraskquestion_context" />
+
+    <EditText
+        android:id="@+id/useraskquestion_contextedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|top"
+        android:hint="@string/useraskquestion_contexthint"
+        android:inputType="textMultiLine"
+        android:minLines="6" />
+    <!-- UI美化按钮之间的直线 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_break"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" />
+
+        <Button
+            android:id="@+id/useraskquestion_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/useraskquestion_suresubmit"
+            android:background="@android:color/transparent"
+            android:textColor="@color/menue_login" />
+
+        <!-- UI美化按钮之间的直线 -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_break"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" />
+
+        <Button
+            android:id="@+id/useraskquestion_reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/useraskquestion_reset"
+            android:background="@android:color/transparent"
+            android:textColor="@color/menue_login" />
+
+        <!-- UI美化按钮之间的直线 -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_break"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" />
+
+        <Button
+            android:id="@+id/useraskquestion_cancle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/useraskquestion_cancle"
+            android:background="@android:color/transparent"
+            android:textColor="@color/menue_login" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MapQ</string>
+    <string name="app_MapQ_show">MapQ走进世界</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_world">MapQ同城问问!</string>
+    
+    <!-- 主菜单选项  -->
+    <string name="menue_login">用户登录</string>
+    <string name="menue_try">直接体验</string>
+    <string name="menue_about">关于MapQ</string>
+    <string name="menue_exit">退出</string>
+    
+
+	<!-- 各标签注释 -->
+	<string name="logo_1">MapQ_1</string>
+	<string name="logo_2">MapQ_2</string>
+	
+	<!-- 用户登录界面的默认字符串 -->
+	<string name="userloginhead">MapQ同城问问</string>
+	<string name="userloginnamehint">请输入用户名</string>
+	<string name="userloginpwdhint">请输入密码</string>
+	<string name="userlogin_surelogin_button">确认登录</string>
+	<string name="userlogin_register_button">注册一个用户</string>
+	<string name="userlogin_cacleLogin">取消登录</string>
+	
+	<!-- MapQ用户注册界面默认字符串 -->
+	<string name="userregister_head">MapQ欢迎您加入</string>
+	<string name="userregister_waring">注册即代表您同意接受同城问问MapQ的使用条款</string>
+	<string name="userregister_inputname">请设计用户名</string>
+	<string name="userregister_name">请输入用户名:</string>
+	<string name="userregister_password_1">请输入密码</string>
+	<string name="userregister_password_2">请再次输入密码</string>
+	<string name="userregister_email">请输入邮箱</string>
+	<string name="userregister_recode">请输入验证码</string>
+	<string name="userregister_checkName_button">检查</string>
+	<string name="useregister_sureregister">确认注册</string>
+	<string name="userregister_killall">重置</string>
+	<string name="userregister_cacle">取消注册</string>
+	<string name="userregister_final_code">1+1=</string>
+	
+	<!-- 百度地图Activity界面默认显示文字 -->
+	<string name="baiduMap_username">体验用户</string>
+	<string name="baiduMap_MyPlace_Button">我的位置</string>
+	<string name="baiduMap_searchcityhint">城市名</string>
+	<string name="baiduMap_searchhint">找找其它地方?</string>
+	<string name="baiduMap_searchButton">寻找</string>
+	<string name="baiduMap_showmyquestion">我的问问</string>
+	
+	<!-- 用户查看问题后回复 -->
+	<string name="reply_hint">请在此回复</string>
+	<string name="reply_sureButton">回复</string>
+	<string name="reply_cancle">返回</string>
+	
+	<!-- 用户提问界面 -->
+	<string name="useraskquestion_title">请输入问问标题</string>
+	<string name="useraskquestion_titlehint">请在此输入问题</string>
+	<string name="useraskquestion_context">请输入问问内容</string>
+	<string name="useraskquestion_contexthint">请在此输入内容</string>
+	<string name="useraskquestion_suresubmit">开始问问</string>
+	<string name="useraskquestion_reset">重置</string>
+	<string name="useraskquestion_cancle">取消问问</string>
+	
+	
+	<!-- 查看用户所有问题  -->
+	<string name="getuserallquestion_head">您的所有提问如下</string>
+	<string name="getuserallquestion_cancle">返回</string>
+	
+	<!-- 同城问问相关 -->
+	<string name="about_Title">软件名:同城问问MapQ</string>
+	<string name="about_version">版本1.1</string>
+	<string name="about_author">开发者:钟宾帆</string>
+	<string name="about_e_mail">邮箱:jincitykasto@163.com</string>
+	
+</resources>

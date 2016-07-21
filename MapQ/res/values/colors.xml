@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 开始菜单选项按钮字体颜色 -->
+    <color name="menue_login">#0000FF</color>
+    
+    <!-- 默认按钮颜色(绿玉色) -->
+    <color name="fianl_button_color">#7FFFD4</color>
+    
+    <!-- 按钮间分割线的颜色 -->
+    <color name="line_break">#FF0000</color>
+    
+    <!-- 验证码背景色 -->
+    <color name="code_back">#00BFFF</color>
+    <!-- 验证码颜色 纯红 -->
+    <color name="code_color">#FF0000</color>
+    
+    <!-- 百度地图界面颜色设置  -->
+    <!-- 用户名称字体颜色，默认为纯蓝色   -->
+    <color name="BaiduMap_username_color">#0000FF</color>
+    <!-- 点击开始定位当前位置的TextView按钮的字体颜色 -->
+    <color name="BaiduMap_MyPlace_Button">#0000CD</color>
+    
+    <!-- 问题弹出标标题背景色 -->
+    <color name="Question_Title_background">#FFFF00</color>
+    
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/realquestion"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/realquestionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/showrealquestion_questionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/showrealquestion_questionUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/showrealquestion_publishTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/showrealquestion_questionContext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <!-- UI美化按钮之间的直线 -->
+
+    <View
+        android:id="@+id/realquestion_line_1"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/realquestionTitle"
+        android:background="@color/line_break"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" />
+
+    <LinearLayout
+        android:id="@+id/realquestion_showquestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/realquestion_line_1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/showrealquestion_reply"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scrollbars="vertical"
+            android:singleLine="false" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/showrealquestion_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/Question_Title_background"
+        android:text="@string/reply_cancle" />
+
+    <!-- UI美化按钮之间的直线 -->
+
+    <View
+        android:id="@+id/realquestion_line_2"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_above="@id/showrealquestion_cancle"
+        android:background="@color/line_break"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/realquestion_line_2" >
+
+        <EditText
+            android:id="@+id/showrealquestion_myreply"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="@color/code_back"
+            android:hint="@string/reply_hint"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/showrealquestion_surereply_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/Question_Title_background"
+            android:text="@string/reply_sureButton" />
+    </LinearLayout>
+
+</RelativeLayout>

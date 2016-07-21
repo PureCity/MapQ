@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reg_background" >
+
+    <TextView
+        android:id="@+id/getallquestiontitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/getuserallquestion_head"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/getuserallquestion_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@android:color/transparent"
+        android:text="@string/getuserallquestion_cancle" />
+    
+    <!-- UI美化按钮之间的直线 -->
+
+    <View
+        android:id="@+id/allquestion_line_1"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_above="@id/getuserallquestion_cancle"
+        android:background="@color/line_break"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" />
+
+    <ListView
+        android:id="@+id/getuserallquestion_QuestionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/getallquestiontitle" 
+        android:layout_above="@id/allquestion_line_1"
+        >
+    </ListView>
+    
+</RelativeLayout>

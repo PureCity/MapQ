@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reg_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/userregister_showhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/userregister_head" />
+
+        <TextView
+            android:id="@+id/userregister_show_warning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/userregister_waring" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/userregister_name" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/userregister_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:hint="@string/userregister_inputname"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true" />
+            
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                
+                <!-- UI美化按钮之间的直线 -->
+	
+	            <View
+	                android:layout_width="match_parent"
+	                android:layout_height="1px"
+	                android:background="@color/line_break"
+	                android:paddingBottom="10dp"
+	                android:paddingTop="10dp" />
+	
+	            <Button
+	                android:id="@+id/userregister_checkName_button"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center"
+	                android:background="@android:color/transparent"
+	                android:text="@string/userregister_checkName_button"
+	                android:textColor="@color/menue_login" />
+	            <!-- UI美化按钮之间的直线 -->
+	
+	            <View
+	                android:layout_width="match_parent"
+	                android:layout_height="1px"
+	                android:background="@color/line_break"
+	                android:paddingBottom="10dp"
+	                android:paddingTop="10dp" />
+                
+            </LinearLayout>
+
+	            
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/userregister_password_1" />
+
+        <EditText
+            android:id="@+id/userregister_password_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/userregister_password_1"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/userregister_password_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/userregister_password_2"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/userregister_email" />
+
+        <EditText
+            android:id="@+id/userregister_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/userregister_email"
+            android:inputType="textEmailAddress"
+            android:maxLength="50"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/userregister_code"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/code_back"
+                android:gravity="center"
+                android:text="@string/userregister_final_code"
+                android:textColor="@color/code_color" />
+
+            <EditText
+                android:id="@+id/userregister_code_input"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/userregister_recode"
+                android:maxLength="4"
+                android:maxLines="1"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <!-- UI美化按钮之间的直线 -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_break"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" />
+
+        <Button
+            android:id="@+id/userregister_sureregister_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/useregister_sureregister"
+            android:textColor="@color/menue_login" />
+        <!-- UI美化按钮之间的直线 -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_break"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" />
+
+        <Button
+            android:id="@+id/userregister_clear_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/userregister_killall"
+            android:textColor="@color/menue_login" />
+        <!-- UI美化按钮之间的直线 -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_break"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" />
+
+        <Button
+            android:id="@+id/userregister_cacle_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/userregister_cacle"
+            android:textColor="@color/menue_login" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/reg_background">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="vertical"
+        >
+        <TextView 
+            android:id="@+id/userlogin_logintip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="@string/userloginhead"/>
+        <EditText 
+            android:id="@+id/userlogin_loginname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/userloginnamehint"
+            android:singleLine="true"
+            android:maxLength="20"
+            />
+     	<EditText
+     	    android:id="@+id/userlogin_password"
+     	    android:layout_width="match_parent"
+     	    android:layout_height="wrap_content"
+     	    android:inputType="textPassword"
+     	    android:hint="@string/userloginpwdhint"
+     	    android:singleLine="true"
+     	    android:maxLength="20"
+     	    />   
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        >
+     	
+        <!-- UI美化按钮之间的直线 -->
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:background="@color/line_break"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"/>
+        
+        <Button
+            android:id="@+id/userlogin_sureloginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/userlogin_surelogin_button"
+            />
+        
+        <!-- UI美化按钮之间的直线 -->
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:background="@color/line_break"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"/>
+        
+        <Button 
+            android:id="@+id/userlogin_registeruserButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/userlogin_register_button"/>
+        
+        <!-- UI美化按钮之间的直线 -->
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:background="@color/line_break"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"/>
+	    
+	    <Button 
+            android:id="@+id/userlogin_cacleLoginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/userlogin_cacleLogin"/>
+        
+        <!-- UI美化按钮之间的直线 -->
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:background="@color/line_break"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"/>
+	    
+    </LinearLayout>
+    
+
+</LinearLayout>
